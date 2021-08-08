@@ -1,0 +1,31 @@
+/*  set all margins and padding to 0 */
+ *{
+   padding : 0;
+   margin: 0;
+}
+
+/* styles for navigation */
+.navbar {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  padding: 5px 0 5px 10px;
+}
+
+.main_content {
+  font-family: Arial, Helvetics, sans-serif;
+}
+
+p {
+  padding: 5px 0 10px 10px;
+}
+
+a {
+  color : rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
