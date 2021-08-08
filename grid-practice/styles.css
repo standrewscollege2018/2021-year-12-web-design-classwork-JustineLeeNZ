@@ -1,0 +1,92 @@
+/* Grid styles */
+
+/* Banner styles */
+.banner-container {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(50, 111, 168);
+  padding: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.class_name {
+  padding: 10px;
+  font-size: 2em;
+
+}
+
+.teacher_name {
+  padding: 20px;
+  text-align: right;
+
+}
+
+/* contains content of page which lists students */
+.student-list-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-gap: 10px;
+}
+
+
+/* contains content of page which lists students */
+.student-details-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-gap: 10px;
+}
+
+.student {
+  border: 1px dotted rgb(12, 34, 56);
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  /* background-color: rgb(217, 214, 208); */
+  background-color: rgb(255, 0, 0);
+}
+/*  */
+.card {
+  border: 1px dotted rgb(12, 34, 56);
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  text-align: left;
+  background-color: rgb(217, 214, 208);
+}
+
+/* Dealing with images in cards */
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card > p {
+  margin-left: 10px;
+}
+.photo {
+  border: 1px dotted rgb(12, 34, 56);
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(217, 214, 208);
+}
+
+/* Dealing with images in cards */
+.photo > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo > p {
+  margin-left: 10px;
+}
